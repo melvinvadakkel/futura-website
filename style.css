@@ -776,7 +776,11 @@ body {
 
 
 
-.pic-11>div>img:hover{
+.pic-11>div> {
+    z-index: 0;
+}
+
+.pic-11>div>img:hover {
     scale: 1.1;
     transition: 1s;
 }
@@ -793,6 +797,9 @@ body {
 
     background-color: white;
     color: black;
+
+    z-index: 5;
+    position: relative;
 }
 
 .name {
@@ -851,7 +858,7 @@ body {
 
 /* interested in joining our courses */
 
-.interested{
+.interested {
     /* border-style: solid; */
     border-width: 1px;
 
@@ -880,12 +887,12 @@ body {
     background-size: cover;
 }
 
-.photo>div>h1{
-    font-size:40px ;
+.photo>div>h1 {
+    font-size: 40px;
     color: white;
 }
 
-.photo>div>h2{
+.photo>div>h2 {
     color: white;
 }
 
@@ -923,13 +930,13 @@ body {
 
 }
 
-.photo{
+.photo {
     display: flex;
 }
 
 
-.man{
+.man {
     position: absolute;
     right: 80px;
-    
+
 }
